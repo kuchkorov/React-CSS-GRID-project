@@ -18,7 +18,6 @@ export default function Navbar() {
           </span>
           Estate
         </h1>
-        <button className='btn'>Sign In</button>
         <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li>
             <a href='#'>Home</a>

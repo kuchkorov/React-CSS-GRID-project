@@ -22,6 +22,13 @@
 .navbar li {
   padding: 1rem;
 }
+.navbar li a {
+  font-weight: bold;
+  transition: all 0.4s ease-in-out;
+}
+.navbar ul li a:hover {
+  color: #5651e5;
+}
 .hamburger {
   display: none;
 }
